@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  background-color: #e9c3b9 !important;
+}
+
+.navbar {
+  padding: 0;
+  background-color: #b46059;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #fef769;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px rgba(128, 0, 0, 1);
+}
+
+.navbar-nav li a {
+  font-size: 18px;
+}
+
+.navbar-nav li a:hover {
+  font-size: 25px;
+  transition: all 2s;
+}
+
+.navbar .dropdown-menu {
+  background-color: #e9c3b9;
+}
+
+.image-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.horizontal-image {
+  min-width: 100vh;
+  height: auto;
+  display: block;
+}
+
+.titulos {
+  font-family: "Shadows Into Light", cursive;
+  text-shadow: 3px 3px 5px rgba(128, 0, 0, 1);
+}
+
+.parrafos {
+  font-family: "Indie Flower", cursive;
+  font-size: 20px;
+}
+
+.mascotas a {
+  text-decoration: none;
+}
+.mascotas img {
+  box-shadow: 8px 6px 5px 0px rgba(128, 0, 0, 1);
+  margin: 5px;
+}
+.mascotas img:hover {
+  border: 5px solid #e9c3b9;
+  border-style: dotted;
+}
+
+.img-thumbnail {
+  border: 0;
+}
+
+#productos-destacados .row {
+  justify-content: space-around;
+}
+
+.card {
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.card img {
+  background-color: #ebdbd7;
+
+  padding: 5px;
+}
+.card-text {
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-body {
+  margin-top: -15px;
+}
+
+.btn .btn-outline-danger {
+  width: 50px;
+}
+
+footer {
+  background-color: #b46059;
+  color: #ffe0d1;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #fef769;
+}
